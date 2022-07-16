@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.logoAndCat{
+    
+    line-height: 40px;
+    font-weight: 500;
+    cursor: pointer;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.drowp-down-custm{
+    left: auto ! important;
 }
+a.navResp-custm{cursor: pointer;}
+@media (max-width:1250px) {
+  a.navResp-custm{
+    font-size: 99%  ! important;}
+    }
+    @media (max-width:1200px) {
+        .media-set{
+            flex-direction: column;
+        }
+        .log-port{
+            text-align: center;
+        }
+        .drowp-down-custm{
+            top: auto !important;
+            
+        }
+          }
+          @media (max-width:331px){
+            .mediaCustm-sm{
+             margin: 0 auto;
+            }
+          }
+    .fill-warning{
+        fill: #f7c32e;
+    }
+    .z-index-n1 {
+        z-index: -1 !important;
+    }
+    .display-6{
+        font-weight: 700 !important;
+        font-size: 3.6rem !important;
+    }
+    /* .hero-custm{
+        background: url(https://eduport.webestica.com/assets/images/pattern/01.png) no-repeat center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+    .custm-cardd{
+        width: 18rem !important;
+    }
+    .bg-custm{
+        background-color: rgba(6, 106, 201, 0.1);
+        border-radius: 0.625rem;
+    }
+    .avatar-img{
+        width: 3.5rem !important;
+        height: 3.5rem !important;
+    }
+  
+    .item-show-hover{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .item-show:hover .item-show-hover{
+        display: block;
+        visibility: visible;
+    }
+  
+   
