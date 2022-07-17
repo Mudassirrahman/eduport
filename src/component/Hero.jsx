@@ -79,24 +79,24 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          {/* <div class="p-3 bg-success d-inline-block rounded-4 shadow-lg position-absolute top-50 end-0 translate-middle-y mt-n7 z-index-1 d-none d-md-block">
-					<p class="text-white d-flex justify-content-end">Our daily new students</p>
-					<ul class="avatar-group d-flex align-content-center justify-content-end mb-0">
-						<li class="avatar avatar-sm">
-							<img class="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/01.jpg" alt="avatar" />
+          {/* <div className="p-3 bg-success d-inline-block rounded-4 shadow-lg position-absolute top-50 end-0 translate-middle-y mt-n7 z-index-1 d-none d-md-block">
+					<p className="text-white d-flex justify-content-end">Our daily new students</p>
+					<ul className="avatar-group d-flex align-content-center justify-content-end mb-0">
+						<li className="avatar avatar-sm">
+							<img className="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/01.jpg" alt="avatar" />
 						</li>
-						<li class="avatar avatar-sm">
-							<img class="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/02.jpg" alt="avatar" />
+						<li className="avatar avatar-sm">
+							<img className="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/02.jpg" alt="avatar" />
 						</li>
-						<li class="avatar avatar-sm">
-							<img class="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/03.jpg" alt="avatar" />
+						<li className="avatar avatar-sm">
+							<img className="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/03.jpg" alt="avatar" />
 						</li>
-						<li class="avatar avatar-sm">
-							<img class="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/04.jpg" alt="avatar" />
+						<li className="avatar avatar-sm">
+							<img className="avatar-img rounded-circle border-white" src="https://eduport.webestica.com/assets/images/avatar/04.jpg" alt="avatar" />
 						</li>
-						<li class="avatar avatar-sm">
-							<div class="avatar-img rounded-circle border-white bg-primary">
-								<span class="text-white position-absolute top-50 translate-middle small">1K+</span>
+						<li className="avatar avatar-sm">
+							<div className="avatar-img rounded-circle border-white bg-primary">
+								<span className="text-white position-absolute top-50 translate-middle small">1K+</span>
 							</div>
 						</li>
 					</ul>

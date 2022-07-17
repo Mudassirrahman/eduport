@@ -20,13 +20,13 @@ const Course = () => {
       
         <div className="my-5 bg-custm py-2">
           <ul
-            class="nav nav-pills nav-pills-bg-soft justify-content-sm-center my-3 px-3"
+            className="nav nav-pills nav-pills-bg-soft justify-content-sm-center my-3 px-3"
             id="course-pills-tab"
             role="tablist"
           >
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0 active"
+                className="nav-link mb-2 mb-md-0 active"
                 id="course-pills-tab-1"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-1"
@@ -39,9 +39,9 @@ const Course = () => {
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-2"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-2"
@@ -54,9 +54,9 @@ const Course = () => {
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-3"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-3"
@@ -69,9 +69,9 @@ const Course = () => {
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-4"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-4"
@@ -84,9 +84,9 @@ const Course = () => {
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-5"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-5"
@@ -103,62 +103,62 @@ const Course = () => {
       
       
         <div className="row">
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="card shadow h-100">
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <div className="card shadow h-100">
               <img
                 src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="course image"
               />
 
-              <div class="card-body pb-0">
-                <div class="d-flex justify-content-between mb-2">
-                  <a href="" class="text-decoration-none bg-light text-purple">
+              <div className="card-body pb-0">
+                <div className="d-flex justify-content-between mb-2">
+                  <a href="" className="text-decoration-none bg-light text-purple">
                     All level
                   </a>
-                  <a href="" class="h6 mb-0">
+                  <a href="" className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
-                <h5 class="card-title fw-normal">
+                <h5 className="card-title fw-normal">
                   <a href="" className="text-decoration-none fw-bolder fs-3 text-muted" >Sketch from A to Z: for app designer</a>
                 </h5>
-                <p class="mb-2 text-truncate-2">
+                <p className="mb-2 text-truncate-2">
                   Proposal indulged no do sociable he throwing settling.
                 </p>
 
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item me-0 small">
+                <ul className="list-inline mb-0">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <BsStarHalf className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
+                  <li className="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
                     4.0/5.0
                   </li>
                 </ul>
               </div>
 
-              <div class="card-footer pt-0 pb-3">
+              <div className="card-footer pt-0 pb-3">
                 <hr />
-                <div class="d-flex justify-content-between">
-                  <span class="h6 fw-light mb-0">
+                <div className="d-flex justify-content-between">
+                  <span className="h6 fw-light mb-0">
                     <AiOutlineClockCircle className="text-danger me-2" />
                     12h 56m12h 56m
                   </span>
-                  <span class="h6 fw-light mb-0">
-                    <i class="fas fa-table text-danger me-2"></i>
+                  <span className="h6 fw-light mb-0">
+                    <i className="fas fa-table text-danger me-2"></i>
                     <BiTable className="text-danger me-2" />
                     15 lectures
                   </span>
@@ -166,62 +166,62 @@ const Course = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="card shadow h-100">
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <div className="card shadow h-100">
               <img
                 src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="course image"
               />
 
-              <div class="card-body pb-0">
-                <div class="d-flex justify-content-between mb-2">
-                  <a href="" class=" bg-purple bg-opacity-10 text-purple">
+              <div className="card-body pb-0">
+                <div className="d-flex justify-content-between mb-2">
+                  <a href="" className=" bg-purple bg-opacity-10 text-purple">
                     All level
                   </a>
-                  <a href="" class="h6 mb-0">
+                  <a href="" className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
-                <h5 class="card-title fw-normal">
+                <h5 className="card-title fw-normal">
                   <a href="">Sketch from A to Z: for app designer</a>
                 </h5>
-                <p class="mb-2 text-truncate-2">
+                <p className="mb-2 text-truncate-2">
                   Proposal indulged no do sociable he throwing settling.
                 </p>
 
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item me-0 small">
+                <ul className="list-inline mb-0">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <BsStarHalf className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
+                  <li className="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
                     4.0/5.0
                   </li>
                 </ul>
               </div>
 
-              <div class="card-footer pt-0 pb-3">
+              <div className="card-footer pt-0 pb-3">
                 <hr />
-                <div class="d-flex justify-content-between">
-                  <span class="h6 fw-light mb-0">
+                <div className="d-flex justify-content-between">
+                  <span className="h6 fw-light mb-0">
                     <AiOutlineClockCircle className="text-danger me-2" />
                     12h 56m
                   </span>
-                  <span class="h6 fw-light mb-0">
-                    <i class="fas fa-table text-danger me-2"></i>
+                  <span className="h6 fw-light mb-0">
+                    <i className="fas fa-table text-danger me-2"></i>
                     <BiTable className="text-danger me-2" />
                     15 lectures
                   </span>
@@ -229,62 +229,62 @@ const Course = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="card shadow h-100">
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <div className="card shadow h-100">
               <img
                 src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="course image"
               />
 
-              <div class="card-body pb-0">
-                <div class="d-flex justify-content-between mb-2">
-                  <a href="" class="bg-purple bg-opacity-10 text-purple">
+              <div className="card-body pb-0">
+                <div className="d-flex justify-content-between mb-2">
+                  <a href="" className="bg-purple bg-opacity-10 text-purple">
                     All level
                   </a>
-                  <a href="" class="h6 mb-0">
+                  <a href="" className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
-                <h5 class="card-title fw-normal">
+                <h5 className="card-title fw-normal">
                   <a href="">Sketch from A to Z: for app designer</a>
                 </h5>
-                <p class="mb-2 text-truncate-2">
+                <p className="mb-2 text-truncate-2">
                   Proposal indulged no do sociable he throwing settling.
                 </p>
 
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item me-0 small">
+                <ul className="list-inline mb-0">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <BsStarHalf className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
+                  <li className="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
                     4.0/5.0
                   </li>
                 </ul>
               </div>
 
-              <div class="card-footer pt-0 pb-3">
+              <div className="card-footer pt-0 pb-3">
                 <hr />
-                <div class="d-flex justify-content-between">
-                  <span class="h6 fw-light mb-0">
+                <div className="d-flex justify-content-between">
+                  <span className="h6 fw-light mb-0">
                     <AiOutlineClockCircle className="text-danger me-2" />
                     12h 56m12h 56m
                   </span>
-                  <span class="h6 fw-light mb-0">
-                    <i class="fas fa-table text-danger me-2"></i>
+                  <span className="h6 fw-light mb-0">
+                    <i className="fas fa-table text-danger me-2"></i>
                     <BiTable className="text-danger me-2" />
                     15 lectures
                   </span>
@@ -292,62 +292,62 @@ const Course = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="card shadow h-100">
+          <div className="col-sm-6 col-lg-4 col-xl-3">
+            <div className="card shadow h-100">
               <img
                 src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="course image"
               />
 
-              <div class="card-body pb-0">
-                <div class="d-flex justify-content-between mb-2">
-                  <a href="" class="bg-purple bg-opacity-10 text-purple">
+              <div className="card-body pb-0">
+                <div className="d-flex justify-content-between mb-2">
+                  <a href="" className="bg-purple bg-opacity-10 text-purple">
                     All level
                   </a>
-                  <a href="" class="h6 mb-0">
+                  <a href="" className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
-                <h5 class="card-title fw-normal">
+                <h5 className="card-title fw-normal">
                   <a href="">Sketch from A to Z: for app designer</a>
                 </h5>
-                <p class="mb-2 text-truncate-2">
+                <p className="mb-2 text-truncate-2">
                   Proposal indulged no do sociable he throwing settling.
                 </p>
 
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item me-0 small">
+                <ul className="list-inline mb-0">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <AiFillStar className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item me-0 small">
+                  <li className="list-inline-item me-0 small">
                     <BsStarHalf className=" fs-4 text-warning" />
                   </li>
-                  <li class="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
+                  <li className="list-inline-item ms-2 fs-5  h6 fw-light mb-0">
                     4.0/5.0
                   </li>
                 </ul>
               </div>
 
-              <div class="card-footer pt-0 pb-3">
+              <div className="card-footer pt-0 pb-3">
                 <hr />
-                <div class="d-flex justify-content-between">
-                  <span class="h6 fw-light mb-0">
+                <div className="d-flex justify-content-between">
+                  <span className="h6 fw-light mb-0">
                     <AiOutlineClockCircle className="text-danger me-2" />
                     12h 56m12h 56m
                   </span>
-                  <span class="h6 fw-light mb-0">
-                    <i class="fas fa-table text-danger me-2"></i>
+                  <span className="h6 fw-light mb-0">
+                    <i className="fas fa-table text-danger me-2"></i>
                     <BiTable className="text-danger me-2" />
                     15 lectures
                   </span>
@@ -376,13 +376,13 @@ export default Course;
       <div className="container">
         <div className="my-3 bg-custm py-2">
           <ul
-            class="nav nav-pills nav-pills-bg-soft justify-content-sm-center my-3 px-3"
+            className="nav nav-pills nav-pills-bg-soft justify-content-sm-center my-3 px-3"
             id="course-pills-tab"
             role="tablist"
           >
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0 active"
+                className="nav-link mb-2 mb-md-0 active"
                 id="course-pills-tab-1"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-1"
@@ -395,9 +395,9 @@ export default Course;
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-2"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-2"
@@ -410,9 +410,9 @@ export default Course;
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-3"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-3"
@@ -425,9 +425,9 @@ export default Course;
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-4"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-4"
@@ -440,9 +440,9 @@ export default Course;
               </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
+            <li className="nav-item me-2 me-sm-5">
               <button
-                class="nav-link mb-2 mb-md-0"
+                className="nav-link mb-2 mb-md-0"
                 id="course-pills-tab-5"
                 data-bs-toggle="pill"
                 data-bs-target="course-pills-tabs-5"

@@ -1,6 +1,6 @@
 import Course from "./component/Course";
 import Footer from "./component/Footer";
-import Form from "./component/Form";
+import FormInput from "./component/FormInput";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar";
 import TrendCours from "./component/TrendCours";
@@ -13,7 +13,7 @@ function App() {
      <Hero />
      <Course />
      <TrendCours />
-     <Form />
+     <FormInput />
      <Footer />
      
      
