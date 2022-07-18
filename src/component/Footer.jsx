@@ -1,65 +1,190 @@
+import React from "react";
+import {FiFacebook} from "react-icons/fi"
+import {AiOutlineInstagram , AiOutlineTwitter ,AiOutlineLinkedin} from "react-icons/ai"
+
 const Footer = ()=>{
     return(
         <>
-        <footer className="bd-footer py-5 mt-5 bg-light">
+<footer class="pt-5 mt-5 bg-light">
+	<div class="container">
+		
+		<div class="row g-4">
+
+			
+			<div class="col-lg-3">
+				
+				<a class="me-0" href="index.html">
+					<img class="dark-mode-item h-40px" height="40px" src="https://eduport.webestica.com/assets/images/logo.svg" alt="logo" />
+				</a>
+				<p class="my-3">Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.</p>
+				
+				<ul class="list-inline mb-0 mt-3">
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><FiFacebook className="fs-4" /></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram" href="#"><AiOutlineInstagram className="fs-4" /></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-twitter" href="#"><AiOutlineTwitter className="fs-4" /></a> </li>
+					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-linkedin" href="#"><AiOutlineLinkedin className="fs-4" /></a> </li>
+				</ul>
+			</div>
+			
+
+			
+			<div class="col-lg-6">
+				<div class="row g-4">
+					
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Company</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">News and Blogs</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Library</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+						</ul>
+					</div>
+									
+					
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Community</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
+						</ul>
+					</div>
+
+					
+					<div class="col-6 col-md-4">
+						<h5 class="mb-2 mb-md-4">Teaching</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item"><a class="nav-link" href="#">Become a teacher</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">How to guide</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Terms &amp; Conditions</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+
+			
+			<div class="col-lg-3">
+				<h5 class="mb-2 mb-md-4">Contact</h5>
+				
+				<p class="mb-2">
+					Toll free:<span class="h6 fw-light ms-2">+1234 568 963</span>
+					<span class="d-block small">(9:AM to 8:PM IST)</span>
+				</p>
+
+				<p class="mb-0">Email:<span class="h6 fw-light ms-2">example@gmail.com</span></p>
+
+				<div class="row g-2 mt-2">
+					
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="https://eduport.webestica.com/assets/images/client/google-play.svg" alt="" /> </a>
+					</div>
+					
+					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+						<a href="#"> <img src="https://eduport.webestica.com/assets/images/client/app-store.svg" alt="app-store" /> </a>
+					</div>
+				</div> 
+			</div> 
+		
+		</div>
+
+	
+		<hr class="mt-4 mb-0" />
+
+		
+		<div class="py-3">
+			<div class="container px-0">
+				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+					
+					<div class="text-primary-hover"> Copyrights <a href="#" class="text-body">©2021 Eduport</a>. All rights reserved. </div>
+				
+					<div class=" mt-3 mt-md-0">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item">
+							
+								<div class="dropup mt-0 text-center text-sm-end">
+									<a class="dropdown-toggle nav-link" href="#" role="button" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
+										<i class="fas fa-globe me-2"></i>Language
+									</a>
+									<ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
+										<li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="assets/images/flags/uk.svg" alt="" />English</a></li>
+										<li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="assets/images/flags/gr.svg" alt="" />German </a></li>
+										<li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="assets/images/flags/sp.svg" alt="" />French</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="list-inline-item"><a class="nav-link" href="#">Terms of use</a></li>
+							<li class="list-inline-item"><a class="nav-link pe-0" href="#">Privacy policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+        {/* <footer className="bd-footer py-5 mt-5 bg-light">
   <div className="container py-5">
     <div className="row">
       <div className="col-lg-3 mb-3">
-        <a className="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
+        <a className="text-decoration-none d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/" aria-label="Bootstrap">
           <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" className="d-block me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fillRule="evenodd" clipRule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"/></svg>
           <span className="fs-5">Bootstrap</span>
         </a>
-        <ul className="list-unstyled small text-muted">
-          <li className="mb-2">Designed and built with all the love in the world by the <a href="/docs/5.0/about/team/">Bootstrap team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
-          <li className="mb-2">Code licensed <a href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
+        <ul className="list-style-none small text-muted">
+          <li className="mb-2">Designed and built with all the love in the world by the <a className="text-decoration-none" href="/docs/5.0/about/team/" >Bootstrap team</a> with the help of <a className="text-decoration-none" href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</li>
+          <li className="mb-2">Code licensed <a className="text-decoration-none" href="https://github.com/twbs/bootstrap/blob/main/LICENSE" target="_blank" rel="license noopener">MIT</a>, docs <a className="text-decoration-none" href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
           <li className="mb-2">Currently v5.0.2.</li>
-          <li className="mb-2">Analytics by <a href="https://usefathom.com/ref/ADZSBE" target="_blank" rel="noopener">Fathom</a>.</li>
+          <li className="mb-2">Analytics by <a className="text-decoration-none" href="https://usefathom.com/ref/ADZSBE" target="_blank" rel="noopener">Fathom</a>.</li>
         </ul>
       </div>
       <div className="col-6 col-lg-2 offset-lg-1 mb-3">
         <h5>Links</h5>
         <ul className="list-unstyled">
-          <li className="mb-2"><a href="/">Home</a></li>
-          <li className="mb-2"><a href="/docs/5.0/">Docs</a></li>
-          <li className="mb-2"><a href="/docs/5.0/examples/">Examples</a></li>
-          <li className="mb-2"><a href="https://themes.getbootstrap.com/">Themes</a></li>
-          <li className="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
-          <li className="mb-2"><a href="https://cottonbureau.com/people/bootstrap">Swag Store</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="/">Home</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="/docs/5.0/">Docs</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="/docs/5.0/examples/">Examples</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://themes.getbootstrap.com/">Themes</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://blog.getbootstrap.com/">Blog</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://cottonbureau.com/people/bootstrap">Swag Store</a></li>
         </ul>
       </div>
       <div className="col-6 col-lg-2 mb-3">
         <h5>Guides</h5>
         <ul className="list-unstyled">
-          <li className="mb-2"><a href="/docs/5.0/getting-started/">Getting started</a></li>
-          <li className="mb-2"><a href="/docs/5.0/examples/starter-template/">Starter template</a></li>
-          <li className="mb-2"><a href="/docs/5.0/getting-started/webpack/">Webpack</a></li>
-          <li className="mb-2"><a href="/docs/5.0/getting-started/parcel/">Parcel</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="/docs/5.0/getting-started/">Getting started</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="/docs/5.0/examples/starter-template/">Starter template</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="/docs/5.0/getting-started/webpack/">Webpack</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="/docs/5.0/getting-started/parcel/">Parcel</a></li>
         </ul>
       </div>
       <div className="col-6 col-lg-2 mb-3">
         <h5>Projects</h5>
         <ul className="list-unstyled">
-          <li className="mb-2"><a href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
-          <li className="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
-          <li className="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
-          <li className="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
-          <li className="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/twbs/bootstrap">Bootstrap 5</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/twbs/bootstrap/tree/v4-dev">Bootstrap 4</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/twbs/icons">Icons</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/twbs/rfs">RFS</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a></li>
         </ul>
       </div>
       <div className="col-6 col-lg-2 mb-3">
         <h5>Community</h5>
         <ul className="list-unstyled">
-          <li className="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
-          <li className="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
-          <li className="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
-          <li className="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
-          <li className="mb-2"><a href="https://bootstrap-slack.herokuapp.com/">Slack</a></li>
-          <li className="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/twbs/bootstrap/discussions">Discussions</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://opencollective.com/bootstrap">Open Collective</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://bootstrap-slack.herokuapp.com/">Slack</a></li>
+          <li className="mb-2"><a className="text-decoration-none" href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack Overflow</a></li>
         </ul>
       </div>
     </div>
   </div>
-</footer>
+</footer> */}
 
             {/* <section className="section-no-border pb-3">
 
@@ -86,16 +211,16 @@ const Footer = ()=>{
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
             <p>
-              <a href="#!">MDBootstrap</a>
+              <a className="text-decoration-none" href="#!">MDBootstrap</a>
             </p>
             <p>
-              <a href="#!">MDWordPress</a>
+              <a className="text-decoration-none" href="#!">MDWordPress</a>
             </p>
             <p>
-              <a href="#!">BrandFlow</a>
+              <a className="text-decoration-none" href="#!">BrandFlow</a>
             </p>
             <p>
-              <a href="#!">Bootstrap Angular</a>
+              <a className="text-decoration-none" href="#!">Bootstrap Angular</a>
             </p>
           </div>
           
@@ -106,16 +231,16 @@ const Footer = ()=>{
           <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
             <p>
-              <a href="#!">Your Account</a>
+              <a className="text-decoration-none" href="#!">Your Account</a>
             </p>
             <p>
-              <a href="#!">Become an Affiliate</a>
+              <a className="text-decoration-none" href="#!">Become an Affiliate</a>
             </p>
             <p>
-              <a href="#!">Shipping Rates</a>
+              <a className="text-decoration-none" href="#!">Shipping Rates</a>
             </p>
             <p>
-              <a href="#!">Help</a>
+              <a className="text-decoration-none" href="#!">Help</a>
             </p>
           </div>
 
@@ -149,7 +274,7 @@ const Footer = ()=>{
 
             
             <p className="text-center text-md-left">© 2020 Copyright:
-              <a href="/">
+              <a className="text-decoration-none" href="/">
                 <strong> MDBootstrap.com</strong>
               </a>
             </p>
@@ -164,22 +289,22 @@ const Footer = ()=>{
             <div className="text-center text-md-right">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="text-decoration-none" className="btn-floating btn-sm rgba-white-slight mx-1">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="text-decoration-none" className="btn-floating btn-sm rgba-white-slight mx-1">
                     <i className="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="text-decoration-none" className="btn-floating btn-sm rgba-white-slight mx-1">
                     <i className="fab fa-google-plus-g"></i>
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a className="btn-floating btn-sm rgba-white-slight mx-1">
+                  <a className="text-decoration-none" className="btn-floating btn-sm rgba-white-slight mx-1">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
