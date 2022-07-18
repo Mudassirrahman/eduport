@@ -5,61 +5,61 @@ import {AiOutlineInstagram , AiOutlineTwitter ,AiOutlineLinkedin} from "react-ic
 const Footer = ()=>{
     return(
         <>
-<footer class="pt-5 mt-5 bg-light">
-	<div class="container">
+<footer className="pt-5 mt-5 bg-light">
+	<div className="container">
 		
-		<div class="row g-4">
+		<div className="row g-4">
 
 			
-			<div class="col-lg-3">
+			<div className="col-lg-3">
 				
-				<a class="me-0" href="index.html">
-					<img class="dark-mode-item h-40px" height="40px" src="https://eduport.webestica.com/assets/images/logo.svg" alt="logo" />
+				<a className="me-0" href="index.html">
+					<img className="dark-mode-item h-40px" height="40px" src="https://eduport.webestica.com/assets/images/logo.svg" alt="logo" />
 				</a>
-				<p class="my-3">Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.</p>
+				<p className="my-3">Eduport education theme, built specifically for the education centers which is dedicated to teaching and involve learners.</p>
 				
-				<ul class="list-inline mb-0 mt-3">
-					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><FiFacebook className="fs-4" /></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram" href="#"><AiOutlineInstagram className="fs-4" /></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-twitter" href="#"><AiOutlineTwitter className="fs-4" /></a> </li>
-					<li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-linkedin" href="#"><AiOutlineLinkedin className="fs-4" /></a> </li>
+				<ul className="list-inline mb-0 mt-3">
+					<li className="list-inline-item"> <a className="btn btn-white btn-sm shadow px-2 text-facebook" href="#"><FiFacebook className="fs-4" /></a> </li>
+					<li className="list-inline-item"> <a className="btn btn-white btn-sm shadow px-2 text-instagram" href="#"><AiOutlineInstagram className="fs-4" /></a> </li>
+					<li className="list-inline-item"> <a className="btn btn-white btn-sm shadow px-2 text-twitter" href="#"><AiOutlineTwitter className="fs-4" /></a> </li>
+					<li className="list-inline-item"> <a className="btn btn-white btn-sm shadow px-2 text-linkedin" href="#"><AiOutlineLinkedin className="fs-4" /></a> </li>
 				</ul>
 			</div>
 			
 
 			
-			<div class="col-lg-6">
-				<div class="row g-4">
+			<div className="col-lg-6">
+				<div className="row g-4">
 					
-					<div class="col-6 col-md-4">
-						<h5 class="mb-2 mb-md-4">Company</h5>
-						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link" href="#">About us</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">News and Blogs</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Library</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Career</a></li>
+					<div className="col-6 col-md-4">
+						<h5 className="mb-2 mb-md-4">Company</h5>
+						<ul className="nav flex-column">
+							<li className="nav-item"><a className="nav-link" href="#">About us</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">Contact us</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">News and Blogs</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">Library</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">Career</a></li>
 						</ul>
 					</div>
 									
 					
-					<div class="col-6 col-md-4">
-						<h5 class="mb-2 mb-md-4">Community</h5>
-						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link" href="#">Documentation</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Forum</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
+					<div className="col-6 col-md-4">
+						<h5 className="mb-2 mb-md-4">Community</h5>
+						<ul className="nav flex-column">
+							<li className="nav-item"><a className="nav-link" href="#">Documentation</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">Faq</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">Forum</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">Sitemap</a></li>
 						</ul>
 					</div>
 
 					
-					<div class="col-6 col-md-4">
-						<h5 class="mb-2 mb-md-4">Teaching</h5>
-						<ul class="nav flex-column">
-							<li class="nav-item"><a class="nav-link" href="#">Become a teacher</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">How to guide</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Terms &amp; Conditions</a></li>
+					<div className="col-6 col-md-4">
+						<h5 className="mb-2 mb-md-4">Teaching</h5>
+						<ul className="nav flex-column">
+							<li className="nav-item"><a className="nav-link" href="#">Become a teacher</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">How to guide</a></li>
+							<li className="nav-item"><a className="nav-link" href="#">Terms &amp; Conditions</a></li>
 						</ul>
 					</div>
 				</div>
@@ -67,23 +67,23 @@ const Footer = ()=>{
 		
 
 			
-			<div class="col-lg-3">
-				<h5 class="mb-2 mb-md-4">Contact</h5>
+			<div className="col-lg-3">
+				<h5 className="mb-2 mb-md-4">Contact</h5>
 				
-				<p class="mb-2">
-					Toll free:<span class="h6 fw-light ms-2">+1234 568 963</span>
-					<span class="d-block small">(9:AM to 8:PM IST)</span>
+				<p className="mb-2">
+					Toll free:<span className="h6 fw-light ms-2">+1234 568 963</span>
+					<span className="d-block small">(9:AM to 8:PM IST)</span>
 				</p>
 
-				<p class="mb-0">Email:<span class="h6 fw-light ms-2">example@gmail.com</span></p>
+				<p className="mb-0">Email:<span className="h6 fw-light ms-2">example@gmail.com</span></p>
 
-				<div class="row g-2 mt-2">
+				<div className="row g-2 mt-2">
 					
-					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+					<div className="col-6 col-sm-4 col-md-3 col-lg-6">
 						<a href="#"> <img src="https://eduport.webestica.com/assets/images/client/google-play.svg" alt="" /> </a>
 					</div>
 					
-					<div class="col-6 col-sm-4 col-md-3 col-lg-6">
+					<div className="col-6 col-sm-4 col-md-3 col-lg-6">
 						<a href="#"> <img src="https://eduport.webestica.com/assets/images/client/app-store.svg" alt="app-store" /> </a>
 					</div>
 				</div> 
@@ -92,32 +92,32 @@ const Footer = ()=>{
 		</div>
 
 	
-		<hr class="mt-4 mb-0" />
+		<hr className="mt-4 mb-0" />
 
 		
-		<div class="py-3">
-			<div class="container px-0">
-				<div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
+		<div className="py-3">
+			<div className="container px-0">
+				<div className="d-md-flex justify-content-between align-items-center py-3 text-center text-md-left">
 					
-					<div class="text-primary-hover"> Copyrights <a href="#" class="text-body">©2021 Eduport</a>. All rights reserved. </div>
+					<div className="text-primary-hover"> Copyrights <a href="#" className="text-body">©2021 Eduport</a>. All rights reserved. </div>
 				
-					<div class=" mt-3 mt-md-0">
-						<ul class="list-inline mb-0">
-							<li class="list-inline-item">
+					<div className=" mt-3 mt-md-0">
+						<ul className="list-inline mb-0">
+							<li className="list-inline-item">
 							
-								<div class="dropup mt-0 text-center text-sm-end">
-									<a class="dropdown-toggle nav-link" href="#" role="button" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
-										<i class="fas fa-globe me-2"></i>Language
+								<div className="dropup mt-0 text-center text-sm-end">
+									<a className="dropdown-toggle nav-link" href="#" role="button" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
+										<i className="fas fa-globe me-2"></i>Language
 									</a>
-									<ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
-										<li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="assets/images/flags/uk.svg" alt="" />English</a></li>
-										<li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="assets/images/flags/gr.svg" alt="" />German </a></li>
-										<li><a class="dropdown-item me-4" href="#"><img class="fa-fw me-2" src="assets/images/flags/sp.svg" alt="" />French</a></li>
+									<ul className="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
+										<li><a className="dropdown-item me-4" href="#"><img className="fa-fw me-2" src="assets/images/flags/uk.svg" alt="" />English</a></li>
+										<li><a className="dropdown-item me-4" href="#"><img className="fa-fw me-2" src="assets/images/flags/gr.svg" alt="" />German </a></li>
+										<li><a className="dropdown-item me-4" href="#"><img className="fa-fw me-2" src="assets/images/flags/sp.svg" alt="" />French</a></li>
 									</ul>
 								</div>
 							</li>
-							<li class="list-inline-item"><a class="nav-link" href="#">Terms of use</a></li>
-							<li class="list-inline-item"><a class="nav-link pe-0" href="#">Privacy policy</a></li>
+							<li className="list-inline-item"><a className="nav-link" href="#">Terms of use</a></li>
+							<li className="list-inline-item"><a className="nav-link pe-0" href="#">Privacy policy</a></li>
 						</ul>
 					</div>
 				</div>
