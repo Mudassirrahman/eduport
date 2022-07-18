@@ -36,11 +36,35 @@ a.navResp-custm {
     margin: 0 auto;
   }
 }
+.hero-sec{
+    margin-top: 6% !important;
+}
 .fill-warning {
   fill: #f7c32e;
+  width: 30.75rem;
+  height: 180.1px;
 }
-.z-index-n1 {
+
+@media (max-width:770px){
+  .hero-sec{
+    margin-top: 6rem !important;
+  }
+  .fill-warning{
+    width:16rem ;
+    height:110px ;
+  }
+  h1.font-sizeMedia{
+    font-size: 2.1rem !important;
+  }
+}
+@media (max-width:990px){
+  img.imag-hero{
+    width: 70%;
+  }
+}
+.custm-position {
   z-index: -1 !important;
+  left: 28%;
 }
 .display-6 {
   font-weight: 700 !important;

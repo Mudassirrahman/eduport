@@ -4,18 +4,16 @@ import {AiFillCheckCircle} from "react-icons/ai"
 const Hero = () => {
   return (
     <>
-      <div className="container my-xxl-5 py-xxl-5  ">
+      <div className="container hero-sec  ">
         <div className="row align-items-center g-5">
           <div className="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-5 mb-sm-0 hero-custm">
-            <h1 className="mb-0 display-6">
+            <h1 className="mb-0 font-sizeMedia display-6">
               Limitless learning at your
               <span className="position-relative">
                 fingertips
-                <span className="position-absolute top-50 start-50 translate-middle z-index-n1">
+                <span className="position-absolute top-50 custm-position translate-middle">
                   <svg
                     className="fill-warning"
-                    width="34.75rem"
-                    height="180.1px"
                     enableBackground="new 0 0 366 62.1"
                     viewBox="0 0 366 62.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -101,9 +99,9 @@ const Hero = () => {
 						</li>
 					</ul>
 				</div> */}
-          <div className="col-lg-7 col-xl-6 text-center">
-        <div className="">
-					<img src="https://eduport.webestica.com/assets/images/element/07.png" alt="" />
+          <div className="col-lg-6  col-xl-6 col-sm-6  text-center">
+        <div >
+					<img className="" src="https://eduport.webestica.com/assets/images/element/07.png" alt="" />
 				</div>
         </div>
         </div>
