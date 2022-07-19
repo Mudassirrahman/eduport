@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <div className="container hero-sec  ">
         <div className="row align-items-center g-5">
-          <div className="col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-5 mb-sm-0">
+          <div className="col-sm-5 col-lg-5 col-xl-6 position-relative z-index-1 text-center text-lg-start mb-5 mb-sm-0">
             <h1 className="mb-0 font-sizeMedia display-6">
               Limitless learning at your 
               <span className="position-relative ps-2">
@@ -80,24 +80,24 @@ const Hero = () => {
           </div>
        
           {/* <div className="col-lg-6  col-xl-6 col-sm-6  text-center"> */}
-          <div class="col-lg-7 col-xl-6 text-center position-relative">
-          <figure class="position-absolute hero-mainSvg bottom-0 start-0  mt-4 mb-0">
-					<svg className="hero-mainSvg" width="550px" height="538px" viewBox="0 0 554 544">
-						<path class="fill-primary" d="M423.3,77.2c49.5,32.5,100.4,67.2,118.4,114.5s3.5,107.1-15.4,165.7c-18.7,58.6-41.8,116.1-84,148.6 c-42.5,32.8-104.2,40.2-163.8,37.3c-59.5-3.2-116.8-17.1-164.7-47.9c-48.3-30.6-87.2-78.2-102-131.6C-3,310.5,6.6,251,25.3,194.7 C43.6,138,70.7,84.3,114.1,49.5C157.2,14.8,216.7-1,270.8,6.4C324.8,14.2,373.4,44.7,423.3,77.2z" />
+          <div className="col-sm-5 col-lg-7 col-xl-6  text-center position-relative">
+          <figure className="position-absolute hero-mainSvg bottom-0 start-0  mt-4 mb-0">
+					<svg className="hero-mainSvg"  viewBox="0 0 554 544">
+						<path className="fill-primary" d="M423.3,77.2c49.5,32.5,100.4,67.2,118.4,114.5s3.5,107.1-15.4,165.7c-18.7,58.6-41.8,116.1-84,148.6 c-42.5,32.8-104.2,40.2-163.8,37.3c-59.5-3.2-116.8-17.1-164.7-47.9c-48.3-30.6-87.2-78.2-102-131.6C-3,310.5,6.6,251,25.3,194.7 C43.6,138,70.7,84.3,114.1,49.5C157.2,14.8,216.7-1,270.8,6.4C324.8,14.2,373.4,44.7,423.3,77.2z" />
 					</svg>
 				</figure>
         <div className="imag-hero">
 					<img  src="https://eduport.webestica.com/assets/images/element/07.png" alt="" />
 				</div>
         <div>
-        <div class="p-3 bg-blur border border-light shadow rounded-3 position-absolute bottom-0 z-index-9 d-none d-xl-block mb-5 ms-5">
-					<div class="d-flex justify-content-between align-items-center">
+        <div className="p-3 bg-blur border border-light shadow rounded-3 position-absolute bottom-0 z-index-9 d-none d-xl-block mb-5 ms-5">
+					<div className="d-flex justify-content-between align-items-center">
 						
-						<span class="icon-lg bg-warning p-2 rounded-circle"><FaRegEnvelope className="text-white fs-2  " /></span>
+						<span className="icon-lg bg-warning p-2 rounded-circle"><FaRegEnvelope className="text-white fs-2  " /></span>
 						
-						<div class="text-start ms-3">
-							<h6 class="mb-0 text-white">Congratulations <span class="ms-4"><AiFillCheckCircle  className="text-success fs-5"/></span></h6>
-							<p class="mb-0 small text-white">Your admission completed</p>
+						<div className="text-start ms-3">
+							<h6 className="mb-0 text-white">Congratulations <span className="ms-4"><AiFillCheckCircle  className="text-success fs-5"/></span></h6>
+							<p className="mb-0 small text-white">Your admission completed</p>
 						</div>
 					</div>
 				</div>

@@ -57,11 +57,11 @@ a.navResp-custm {
     font-size: 2.1rem !important;
   }
 }
-@media (max-width:330px){
+/* @media (max-width:330px){
   .imag-hero{
   overflow: hidden;
   }
-}
+} */
 .custm-position {
   z-index: -1 !important;
 
@@ -83,6 +83,8 @@ a.navResp-custm {
     }
     .hero-mainSvg{
       z-index: -1;
+      width:550px;
+       height:538px;
       
       fill: #066ac9;
     }
