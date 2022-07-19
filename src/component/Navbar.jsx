@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
     
-      <header className="container fixed-top bg-white mb-3">
+      <header className="fixed-top bg-white mb-3">
       
       <nav className="navbar navbar-expand-xl px-5 ">
       <div className="navbar-brand">

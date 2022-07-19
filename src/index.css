@@ -17,7 +17,7 @@ a.navResp-custm {
 }
 @media (max-width: 1250px) {
   a.navResp-custm {
-    font-size: 99% !important;
+    font-size: 85% !important;
   }
 }
 @media (max-width: 1200px) {
@@ -41,8 +41,8 @@ a.navResp-custm {
 }
 .fill-warning {
   fill: #f7c32e;
-  width: 30.75rem;
-  height: 180.1px;
+  width: 300px;
+  height: 60.1px;
 }
 
 @media (max-width:770px){
@@ -57,27 +57,52 @@ a.navResp-custm {
     font-size: 2.1rem !important;
   }
 }
-@media (max-width:990px){
-  img.imag-hero{
-    width: 70%;
+@media (max-width:330px){
+  .imag-hero{
+  overflow: hidden;
   }
 }
 .custm-position {
   z-index: -1 !important;
-  left: 28%;
+
 }
 .display-6 {
   font-weight: 700 !important;
   font-size: 3.6rem !important;
 }
-/* .hero-custm{
+.hero-custm{
         background: url(https://eduport.webestica.com/assets/images/pattern/01.png) no-repeat center;
         background-repeat: no-repeat;
         background-size: cover;
-    } */
-.custm-cardd {
-  width: 18rem !important;
-}
+        top: 50%;
+
+        right: 7%;
+        width: 12rem;
+        height: 6.5rem;
+        
+    }
+    .hero-mainSvg{
+      z-index: -1;
+      top: 20%;
+      fill: #066ac9;
+    }
+    .bg-blur{
+      backdrop-filter: blur(5px);
+    }
+    .f-size{
+font-size: 13px;
+    }
+    .custm-align{
+      top: 73%;
+    }
+    .avatar-group > li:not(:last-child) {
+      margin-right: -0.8rem;
+    }
+    .avatar-imag{
+      width: 2.5rem !important;
+      height: 2.5rem !important;
+    }
+
 .bg-custm {
   background-color: rgba(6, 106, 201, 0.1);
   border-radius: 0.625rem;
@@ -96,3 +121,11 @@ a.navResp-custm {
   display: block;
   visibility: visible;
 }
+
+/* @media (max-width:450px){
+  .course-custmMain{
+margin: 0 2rem !important;
+  }
+
+} */
+

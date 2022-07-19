@@ -7,7 +7,7 @@ import CourseMenu from "./CourseMenu";
 const Course = () => {
   return (
     <>
-      <div className="container py-5">
+      <div className="container course-custmMain py-5">
         <div className="text-center pb-xl-3 ">
           <h1 className="display-3 fw-bolder pb-4">Most Popular Courses</h1>
           <p className="fs-5">
