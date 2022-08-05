@@ -1,5 +1,6 @@
 import React from "react";
-import {AiFillCheckCircle} from "react-icons/ai"
+import {AiFillCheckCircle } from "react-icons/ai"
+import {BsFillPlayFill} from "react-icons/bs"
 import {FaRegEnvelope} from "react-icons/fa"
 
 const Hero = () => {
@@ -57,7 +58,7 @@ const Hero = () => {
             <div className="d-sm-flex align-items-center justify-content-center justify-content-lg-start">
               <a
                 href="#"
-                className="btn btn-lg btn-danger-soft me-2 mb-4 mb-sm-0"
+                className="btn btn-lg btn-danger me-2 mb-4 mb-sm-0"
               >
                 Get Started
               </a>
@@ -68,9 +69,10 @@ const Hero = () => {
                 href="https://www.youtube.com/embed/tXHviS-4ygo"
                 className="ms-0 ms-sm-4 d-block"
               >
-                <div className="btn btn-round btn-primary-shadow mb-0 me-3 align-middle d-inline-block">
+                <div className="btn btn-primary mb-0 me-3 align-middle text-center d-inline-block fs-3 rounded-circle ">
                   {/* {" "} */}
-                  <i className="fas fa-play"></i>
+                  <BsFillPlayFill   />
+              
                 </div>
                 <div className="align-middle d-inline-block">
                   <h6 className="mb-0 fw-normal">Watch video</h6>

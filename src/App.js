@@ -1,24 +1,16 @@
-import Course from "./component/Course";
-import Footer from "./component/Footer";
-import FormInput from "./component/FormInput";
-import Formvalid from "./component/Formvalid";
-import Hero from "./component/Hero";
-import Navbar from "./component/Navbar";
-import TrendCours from "./component/TrendCours";
-
+import AdminPortal from "./component/AdminPortal";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
 
 function App() {
   return (
     <>
-     <Navbar /> 
-     <Hero />
-     <Course />
-     <TrendCours />
-     <FormInput />
-     {/* <Formvalid /> */}
-     <Footer />
-     
-     
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/adminportal" element={<AdminPortal />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

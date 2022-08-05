@@ -28,20 +28,20 @@ const Course = () => {
 
               <div className="card-body pb-0">
                 <div className="d-flex justify-content-between mb-2">
-                  <a
-                    href=""
+                  <a href=""
+                    
                     className="text-decoration-none bg-light text-purple"
                   >
                     All level
                   </a>
-                  <a href="" className="h6 mb-0">
+                  <a href=""  className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
                 <h5 className="card-title fw-normal">
-                  <a
-                    href=""
+                  <a href=""
+                    
                     className="text-decoration-none fw-bolder fs-3 text-muted"
                   >
                     Sketch from A to Z: for app designer
@@ -99,16 +99,16 @@ const Course = () => {
 
               <div className="card-body pb-0">
                 <div className="d-flex justify-content-between mb-2">
-                  <a href="" className=" bg-purple bg-opacity-10 text-purple">
+                  <a href=""  className=" bg-purple bg-opacity-10 text-purple">
                     All level
                   </a>
-                  <a href="" className="h6 mb-0">
+                  <a href=""  className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
                 <h5 className="card-title fw-normal">
-                  <a href="">Sketch from A to Z: for app designer</a>
+                  <a href="" >Sketch from A to Z: for app designer</a>
                 </h5>
                 <p className="mb-2 text-truncate-2">
                   Proposal indulged no do sociable he throwing settling.
@@ -162,16 +162,16 @@ const Course = () => {
 
               <div className="card-body pb-0">
                 <div className="d-flex justify-content-between mb-2">
-                  <a href="" className="bg-purple bg-opacity-10 text-purple">
+                  <a href=""  className="bg-purple bg-opacity-10 text-purple">
                     All level
                   </a>
-                  <a href="" className="h6 mb-0">
+                  <a href=""  className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
                 <h5 className="card-title fw-normal">
-                  <a href="">Sketch from A to Z: for app designer</a>
+                  <a href="" >Sketch from A to Z: for app designer</a>
                 </h5>
                 <p className="mb-2 text-truncate-2">
                   Proposal indulged no do sociable he throwing settling.
@@ -225,16 +225,16 @@ const Course = () => {
 
               <div className="card-body pb-0">
                 <div className="d-flex justify-content-between mb-2">
-                  <a href="" className="bg-purple bg-opacity-10 text-purple">
+                  <a href=""  className="bg-purple bg-opacity-10 text-purple">
                     All level
                   </a>
-                  <a href="" className="h6 mb-0">
+                  <a href=""  className="h6 mb-0">
                     <AiOutlineHeart />
                   </a>
                 </div>
 
                 <h5 className="card-title fw-normal">
-                  <a href="">Sketch from A to Z: for app designer</a>
+                  <a href="" >Sketch from A to Z: for app designer</a>
                 </h5>
                 <p className="mb-2 text-truncate-2">
                   Proposal indulged no do sociable he throwing settling.
